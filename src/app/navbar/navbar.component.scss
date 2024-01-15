@@ -1,0 +1,52 @@
+// styles.scss
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.navbar {
+  padding: 5px 30px;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar-brand,
+.navbar-brand:active,
+.navbar-brand:hover,
+.nav-link:hover,
+.dropdown-item:hover,
+.dropdown-item:active {
+  color: rgb(248, 169, 23) !important;
+}
+.logo-header {
+  font-size: 40px;
+}
+.logo-footer {
+  margin-left: 25px;
+}
+.navbar-text {
+  display: flex;
+  align-content: end;
+}
+.nav-link,
+.dropdown-item {
+  color: #ffffff8c;
+}
+.dropdown-item:hover {
+  background-color: #0201018c;
+}
+.nav-link:active {
+  color: rgb(248, 169, 23) !important;
+}
+// .navbar__container {
+//   width: 100%;
+//   display: flex;
+// }
+// .navbar__content {
+//   width: 100%;
+//   display: flex;
+//   justify-content: space-between;
+//   flex-wrap: nowrap;
+// }
+.instagram-icon {
+  font-size: 36px;
+  color: #ffffff8c;
+}

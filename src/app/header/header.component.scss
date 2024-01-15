@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  flex-direction: column; /* Додаємо цей рядок для встановлення вертикальної орієнтації */
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 110px);
+}
+.header__subtitle {
+  font-size: 50px;
+  color: rgb(248, 169, 23) !important;
+}
